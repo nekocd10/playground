@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.center-text {
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+    font-family: Black Ops one, sans-serif;
+    font-size: 48px;
+}
+.body {
+    background-color: color-mix( in srgb,blue 46.7%, white);
+    
+}
