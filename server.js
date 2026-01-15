@@ -13,7 +13,7 @@ app.use(express.static(path.join(process.cwd(), 'public')));
 app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-  res.render('index'); // looks for views/index.ejs
+  res.render('index'); 
 });
 
 app.get('/about', (req, res) => {

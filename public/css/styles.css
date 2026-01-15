@@ -9,8 +9,27 @@ body {
     margin: 0;
     font-family: Black Ops one, sans-serif;
     font-size: 48px;
+    
 }
 .body {
     background-color: color-mix( in srgb,blue 46.7%, white);
     
+}
+.responsive-box {
+    width: 20vw;
+    padding-bottom:20vh; 
+    height: 5vh;   
+    background-color: #e8e8e8;
+    line-height: 20px; 
+    margin: 6px;
+    border-radius: 1px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    align-self: left;
+}
+.image-box {
+    margin: 15px;
+    width: 300px;
+    height: 100px;
+    border:5px solid;
+    overflow: hidden;
 }
